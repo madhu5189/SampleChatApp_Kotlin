@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "619921066",
+    "firebase_url": "https://samplechatappktx.firebaseio.com",
+    "project_id": "samplechatappktx",
+    "storage_bucket": "samplechatappktx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619921066:android:85711a3342c24b95c3dad3",
+        "android_client_info": {
+          "package_name": "madhuri.applications.samplechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619921066-qtvd3gqdgu871nqcpt98fgtnp6jf3nh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD79SUT0acisNpVD_aVjNQ0o8ldEKrVfn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619921066-qtvd3gqdgu871nqcpt98fgtnp6jf3nh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

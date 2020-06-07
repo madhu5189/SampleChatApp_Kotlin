@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/user_email_edit_text_login"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"
+        android:paddingStart="16dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/user_password_edit_text_login"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="16dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:ems="10"
+        app:layout_constraintStart_toStartOf="@id/user_email_edit_text_login"
+        app:layout_constraintEnd_toEndOf="@id/user_email_edit_text_login"
+        app:layout_constraintTop_toBottomOf="@id/user_email_edit_text_login"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/user_login_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/login"
+        app:layout_constraintStart_toStartOf="@id/user_password_edit_text_login"
+        app:layout_constraintEnd_toEndOf="@id/user_password_edit_text_login"
+        app:layout_constraintTop_toBottomOf="@id/user_password_edit_text_login"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/back_to_register_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_registration"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@id/user_login_button"
+        app:layout_constraintEnd_toEndOf="@id/user_login_button"
+        app:layout_constraintTop_toBottomOf="@id/user_login_button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
